@@ -38,5 +38,69 @@ namespace GitTfs.Test.Core
                 Assert.Equal(id, expectId);
             }
         }
+
+        public void f(string a,string b, string c, string d, string e,string f, string g, string h)
+        {
+            int a;
+            int b;
+            int c;
+            for (int d=1;d<10;++d)
+            {
+            if (a)
+            {
+                if (b)
+                    c = 1;
+                else if (b)
+                {
+                    if (c)
+                        a = 1;
+                    else
+                        a = 2;
+                }       
+            }
+            }
+        }
+        public void g()
+        {
+            int a;
+            int b;
+            int c;
+            for (int d=1;d<10;++d)
+            {
+            if (a)
+            {
+                if (b)
+                    c = 1;
+                else if (b)
+                {
+                    if (c)
+                        a = 1;
+                    else
+                        a = 2;
+                }       
+            }
+            }
+        }
+        public void h()
+        {
+            int a;
+            int b;
+            int c;
+            for (int d=1;d<10;++d)
+            {
+            if (a)
+            {
+                if (b)
+                    c = 1;
+                else if (b)
+                {
+                    if (c)
+                        a = 1;
+                    else
+                        a = 2;
+                }       
+            }
+            }
+        }
     }
 }
