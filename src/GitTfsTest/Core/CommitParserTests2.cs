@@ -4,7 +4,7 @@ using Xunit;
 
 namespace GitTfs.Test.Core
 {
-    public class CommitParserTests : BaseTest
+    public class CommitParserTests2 : BaseTest
     {
         public static IEnumerable<object[]> Cases
         {
